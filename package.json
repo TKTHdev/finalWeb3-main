@@ -1,0 +1,25 @@
+{
+  "name": "finalWeb3",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@ethereumjs/common": "^3.1.2",
+    "@truffle/hdwallet-provider": "^2.1.10",
+    "ethereumjs-common": "^1.5.2",
+    "firebase": "^9.20.0",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.8.3"
+  }
+}
